@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meri Saher Meraj!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Happy Birthday, Begam!</h1>
+    </header>
+
+    <div class="countdown">
+        <h2>Countdown for Your Special Surprise!</h2>
+        <div id="timer"></div>
+    </div>
+
+    <!-- Button to reveal the letter, initially hidden -->
+    <button id="reveal-letter" style="display: none;">Click to See Your Letter</button>
+
+    <!-- Handwritten letter image, initially hidden -->
+    <img id="letter" src="your-handwritten-letter.jpg" alt="Handwritten Letter" style="display: none; width: 100%; max-width: 300px; margin: 20px auto;">
+
+    <!-- Download button, initially hidden -->
+    <a id="download-button" href="your-handwritten-letter.jpg" download="Handwritten_Letter.jpg" style="display: none;">
+        <button>Download Your Letter</button>
+    </a>
+
+    <!-- Video Message Section -->
+    <div class="video-message">
+        <h2>Watch a Special Message</h2>
+        <video width="320" height="240" controls>
+            <source src="your-video-message.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Shared Playlist Section -->
+    <div class="playlist">
+        <h2>Your Special Playlist</h2>
+        <iframe src="https://open.spotify.com/embed/playlist/your-playlist-id" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
